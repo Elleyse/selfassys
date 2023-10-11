@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Title Of Your Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      .container {
+        position: static;
+      }
+      .image1 {
+        position: absolute;
+        top: 340px;
+        left: 500px;
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+      }
+
+       /* .image3 {
+        position: absolute;
+        top: 340px;
+        left: 500px;
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+      }  */
+      /* .image2 {
+        z-index: 1;
+      } */
+      body{
+      background-image: url(images/landscape.jpg);
+      background-size: cover;
+    }
+    /* .image-container{
+        position: relative;
+        width: 15px;
+        height: 10px;
+        overflow: hidden;
+      } */
+       .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 3.0s ease;
+      } 
+      .zoom-image {
+        transition: transform 0.3s ease-in-out;
+      }
+       .image-container:hover .zoom-image {
+        transform: scale(2.0);
+      } 
+      </style>
+  </head>  
+  <body>
+    <p>
+      Daniel's Love
+    </p>
+    <h1>
+      A comic about a slime that is infecting everyone in an office. Daniel is the CEO of a 
+      social media company in the Bay Area California. His ex-girlfriend is getting revenge by 
+      infecting everyone with the slime because she is mad at Daniel for rejecting her. The slime 
+      has creepy bugs that crawl out of it. 
+    </h1>
+    <img src="images/face.jpg" alt="page 1 of comic" style="height: 1000px; width: 500px;">
+    <img src="images/hands.jpg" alt="page 1 of comic" style="height: 1000px; width: 500px;">
+    <div class="image-container">
+        <img src="images/handswslime.png" alt="image" class="image1 zoom-image" style="height: 1000px; width: 500px;">
+    </div>
+    <img src="gifs/blob.gif" alt="Animated GIF">
+    <img src="gifs/cass.gif" alt="Animated GIF" width="400" height="200">
+
+
+
+<!-- 
+    <img src="images/part1.png" width="400" height="500">
+    <img src="images/part2.png" width="400" height="500" class="image3"> -->
+  </body>
+</html>
